@@ -9,7 +9,7 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const auth = getAuth();
-  console.log(location);
+  
 
   useEffect(()=>{
     onAuthStateChanged(auth, (user) => {
